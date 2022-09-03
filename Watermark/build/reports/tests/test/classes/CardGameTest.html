@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class CardGameTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class CardGameTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; CardGameTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">7.854s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">start</td>
+<td class="success">7.854s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+Input the image filename:
+&gt; test\notexist.png
+The file test\notexist.png doesn't exist.
+?[1;31m
+Start test 2?[0m
+Input the image filename:
+&gt; test\grey.png
+The number of image color components isn't 3.
+?[1;31m
+Start test 3?[0m
+Input the image filename:
+&gt; test\bits16.png
+The image isn't 24 or 32-bit.
+?[1;31m
+Start test 4?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\notexist.png
+The file test\notexist.png doesn't exist.
+?[1;31m
+Start test 5?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\grey.png
+The number of watermark color components isn't 3.
+?[1;31m
+Start test 6?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\bits16.png
+The watermark isn't 24 or 32-bit.
+?[1;31m
+Start test 7?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\wide.png
+The watermark's dimensions are larger.
+?[1;31m
+Start test 8?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\tall.png
+The watermark's dimensions are larger.
+?[1;31m
+Start test 9?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; pos
+The position method input is invalid.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; 0 0
+The position method input is invalid.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; top
+The position method input is invalid.
+?[1;31m
+Start test 10?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; top
+The position input is invalid.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; up right
+The position input is invalid.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; 100-100
+The position input is invalid.
+?[1;31m
+Start test 11?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; -1 300
+The position input is out of range.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; 301 600
+The position input is out of range.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; 0 -1
+The position input is out of range.
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 20
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; 0 601
+The position input is out of range.
+?[1;31m
+Start test 12?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 15
+Choose the position method (single, grid):
+&gt; grid
+Input the output image filename (jpg or png extension):
+&gt; test\out1.png
+The watermarked image test\out1.png has been created.
+?[1;31m
+Start test 13?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgba.png
+Do you want to use the watermark's Alpha channel?
+&gt; yes
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 25
+Choose the position method (single, grid):
+&gt; grid
+Input the output image filename (jpg or png extension):
+&gt; test\out2.png
+The watermarked image test\out2.png has been created.
+?[1;31m
+Start test 14?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgb.png
+Do you want to set a transparency color?
+&gt; yes
+Input a transparency color ([Red] [Green] [Blue]):
+&gt; 0 0 0
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 35
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; 200 200
+Input the output image filename (jpg or png extension):
+&gt; test\out3.png
+The watermarked image test\out3.png has been created.
+?[1;31m
+Start test 15?[0m
+Input the image filename:
+&gt; test\image5.png
+Input the watermark image filename:
+&gt; test\logorgba.png
+Do you want to use the watermark's Alpha channel?
+&gt; yes
+Input the watermark transparency percentage (Integer 0-100):
+&gt; 50
+Choose the position method (single, grid):
+&gt; single
+Input the watermark position ([x 0-300] [y 0-600]):
+&gt; 300 400
+Input the output image filename (jpg or png extension):
+&gt; test\out4.png
+The watermarked image test\out4.png has been created.
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>java.lang.RuntimeException: The file test\notexist.png doesn't exist.
+	at watermark.MainKt.getValidInputImage(Main.kt:113)
+	at watermark.MainKt.main(Main.kt:21)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The number of image color components isn't 3.
+	at watermark.MainKt.getValidInputImage(Main.kt:118)
+	at watermark.MainKt.main(Main.kt:21)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The image isn't 24 or 32-bit.
+	at watermark.MainKt.getValidInputImage(Main.kt:120)
+	at watermark.MainKt.main(Main.kt:21)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The file test\notexist.png doesn't exist.
+	at watermark.MainKt.getValidWatermarkImage(Main.kt:131)
+	at watermark.MainKt.main(Main.kt:23)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The number of watermark color components isn't 3.
+	at watermark.MainKt.getValidWatermarkImage(Main.kt:136)
+	at watermark.MainKt.main(Main.kt:23)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The watermark isn't 24 or 32-bit.
+	at watermark.MainKt.getValidWatermarkImage(Main.kt:138)
+	at watermark.MainKt.main(Main.kt:23)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The watermark's dimensions are larger.
+	at watermark.MainKt.validateDimensions(Main.kt:230)
+	at watermark.MainKt.main(Main.kt:25)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.RuntimeException: The watermark's dimensions are larger.
+	at watermark.MainKt.validateDimensions(Main.kt:230)
+	at watermark.MainKt.main(Main.kt:25)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position method input is invalid.
+	at watermark.MainKt.getValidPosition(Main.kt:56)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position method input is invalid.
+	at watermark.MainKt.getValidPosition(Main.kt:56)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position method input is invalid.
+	at watermark.MainKt.getValidPosition(Main.kt:56)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is invalid.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:66)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is invalid.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:66)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is invalid.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:66)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is out of range.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:73)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is out of range.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:73)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is out of range.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:73)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: The position input is out of range.
+	at watermark.MainKt.getValidSinglePosition(Main.kt:73)
+	at watermark.MainKt.getValidPosition(Main.kt:54)
+	at watermark.MainKt.main(Main.kt:35)
+	at watermark.MainKt.main(Main.kt)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 28 ago. 2022 9:48:01 p. m.</p>
+</div>
+</div>
+</body>
+</html>
